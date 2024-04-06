@@ -1,0 +1,101 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(209, 214, 212);
+}
+
+.login-container {
+    border: 1px solid #050505;
+    background-color: rgb(211, 228, 230);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    margin:  0 auto;
+   
+}
+
+.input-container {
+    
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+.input-container input{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.button {
+    margin: 15px;
+    background-color: rgb(206, 209, 206);
+    padding: 5px 20px;
+    border: 1px solid black; 
+    font-weight: bold;
+    font-family: 'Calibri';
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover{
+    background-color: rgb(191, 194, 191);
+}
+
+.container{
+    margin: 1rem;
+    text-align: center;
+}
+.nav{
+    background-color: rgb(27, 147, 245);
+    columns: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+}
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-options{
+    font-size: 20px;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+   
+}
+
+.nav li.active{
+    background-color: rgb(23, 121, 201);
+
+}
+
+.nav li:hover{
+    background-color:  rgb(26, 136, 226);
+}
